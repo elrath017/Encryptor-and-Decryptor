@@ -5,7 +5,7 @@ import subprocess
 
 def back():
     roote.destroy() 
-    subprocess.Popen(["python","C:/Users/rahul/Desktop/Coding stuff/python/MCA/it tools lab/it lab project/homepage.py"])
+    subprocess.Popen(["python","homepage.py"])
 
 #upload the corpus
 def upload_file():

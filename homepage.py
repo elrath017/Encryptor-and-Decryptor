@@ -3,11 +3,11 @@ import subprocess
 
 def open_encrypt():
     rooth.destroy()
-    subprocess.Popen(["python", "C:/Users/rahul/Desktop/Coding stuff/python/MCA/it tools lab/it lab project/encrypt.py"])
+    subprocess.Popen(["python", "encrypt.py"])
 
 def open_decrypt():
     rooth.destroy()
-    subprocess.Popen(["python", "C:/Users/rahul/Desktop/Coding stuff/python/MCA/it tools lab/it lab project/decrypt.py"])
+    subprocess.Popen(["python", "decrypt.py"])
 
 
 rooth=tk.CTk()
